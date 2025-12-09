@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+
+# Reflex
+.web/
+assets/
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node modules (if any JavaScript tools are added)
+node_modules/
+package-lock.json
+
+# Data files (large datasets should not be committed)
+*.csv
+*.xlsx
+*.xls
+!**/sample*.csv
+!**/example*.csv
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
